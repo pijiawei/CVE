@@ -49,5 +49,5 @@ xss<script>alert(111)</script>
 
 After successfully executing the PoC, you can observe that the malicious pop-up has occurred on the Home page accessible to regular users, indicating a successful XSS attack.
 
-![image-20240523192652221](SourceCodester Simple Online Bidding System CSRF-2.assets/image-20240523192652221.png)
+![image2](https://github.com/pijiawei/CVE/blob/pijiawei-photo/image2.png)
 
