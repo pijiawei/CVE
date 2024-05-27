@@ -14,7 +14,7 @@ related_function：save_category()
 
 The `save_category()` function in `admin_class.php` receives category-related parameters via POST without validating or escaping the incoming parameters. It directly concatenates these parameters into the SQL `insert` statement, which allows attackers to insert malicious script statements and execute XSS attacks.
 
-![image-20240523192026508](SourceCodester Simple Online Bidding System CSRF-2.assets/image-20240523192026508.png)
+![image1](https://github.com/pijiawei/CVE/blob/pijiawei-photo/image1.png)
 
 #### 2.Vulnerability verification and exploit
 
